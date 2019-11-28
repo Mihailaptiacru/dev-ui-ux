@@ -1,0 +1,14 @@
+/** 
+1.static
+2.relative
+top,right,bottom,left
+(elemntul primeste libertate locala)
+z-index: numarul stratului.
+3.absolute
+pareste stratu curent( este scos) si este mutat in alt strat.
+ramine in fix acela loc.
+cordonatele se masoara de la marginele ferestrei.
+4.fixed
+sticky
+
+**/
