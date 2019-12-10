@@ -1,0 +1,36 @@
+#news {
+    width: 1240px;
+    margin: 50px auto;
+}
+
+#news article {
+
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+
+#news article:last-child {
+    margin-right: 0;
+}
+
+#news article .ref {
+    text-align: right;
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1240px) {
+    #news {
+        width: 800px;
+    }
+
+    #news article {
+        width: 800px;
+        margin-right: 0;
+    }
+
+    #news article img {
+        width: 100%;
+    }
+}
